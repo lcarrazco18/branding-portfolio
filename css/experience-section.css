@@ -8,6 +8,8 @@
     font-size: 4.5rem;
     text-align: center;
     text-transform: uppercase;
+    position: relative;
+    left: -75px;
 }
 
 #experience-section .experience-container {
@@ -21,6 +23,7 @@
     padding: 5px;
     display: inline-block;    
     position: relative;
+    top: -100px;
 }
 
 #experience-section .experience-container .large-icons .square .blue-box {
@@ -36,5 +39,12 @@
     align-items: center;
     font-size: 1.1rem;
     letter-spacing: 3px;
+}
 
+#experience-section .experience-container .large-icons .circle {
+    border: 30px solid #52b8ff;
+    padding: 5px;
+    display: inline-block;    
+    position: relative;
+    top: -100px;
 }
