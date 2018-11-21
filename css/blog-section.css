@@ -1,0 +1,10 @@
+#blog-section {
+    padding: 100px 15px;
+    background: #f9fafc;
+}
+
+#blog-section .title h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    
+}
