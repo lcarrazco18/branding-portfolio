@@ -6,7 +6,7 @@
 #blog-section .title h1 {
     font-size: 4rem;
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 80px;
     text-transform: uppercase;
 }
@@ -16,4 +16,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 500px;
     grid-gap: 15px;
+}
+
+#blog-section .blog-container .post-img {
+    height: 100%;
+    width: 100%;
 }
