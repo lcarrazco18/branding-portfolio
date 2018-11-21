@@ -42,9 +42,29 @@
 }
 
 #experience-section .experience-container .large-icons .circle {
-    border: 30px solid #52b8ff;
+    border: 30px solid #ffc853;
     padding: 5px;
-    display: inline-block;    
+    display: inline-block;
+    border-radius: 50%;
     position: relative;
-    top: -100px;
+    top: 50px;
+    left: 50px;
 }
+
+#experience-section .experience-container .large-icons .white-box {
+    color: #ffc853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+}
+
+
+
