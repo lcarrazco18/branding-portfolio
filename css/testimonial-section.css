@@ -1,6 +1,6 @@
-/* #testimonials-section {
-
-} */
+#testimonials-section {
+    padding: 80px 15px;
+}
 
 #testimonials-section .title {
     position: relative;
@@ -38,5 +38,17 @@
 #testimonials-section .testimonials-container .test-center {
     background: white;
     padding: 60px;
+}
+
+#testimonials-section .testimonials-container .test-center .header{
+    display: flex;
 
 }
+
+#testimonials-section .testimonials-container .test-center .header img {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+
