@@ -40,3 +40,16 @@ footer h6 {
     text-align: center;
 }
 
+
+/* Tablets */
+
+@media only and screen and (max-width: 960px) {
+   
+}
+
+/* Phones */
+
+@media only and screen and (max-width: 767px) {
+
+}
+
