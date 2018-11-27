@@ -6,6 +6,7 @@
 @import "experience-section.css";
 @import "blog-section.css";
 @import "testimonial-section.css";
+@import "footer-section.css";
 
 body {
     background: #eeeeee;
@@ -13,5 +14,17 @@ body {
 
 .container {
     max-width: 1150px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
+
+
+@media only and screen and (max-width: 960px) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+/* Phones */
+
+@media only and screen and (max-width: 767px) {}
