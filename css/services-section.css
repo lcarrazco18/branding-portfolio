@@ -14,7 +14,7 @@
 }
 
 #services-section .title .circle {
-    background: #eef9ff;
+    background: #a2bcca;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -88,7 +88,15 @@
 /* Tablets */
 
 @media only screen and (max-width: 960px) {
-   
+    #services-section .services-container {
+        grid-template-columns: 100%;
+    }
+    #services-section .services-container .box {
+        background: rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+        box-shadow: 0px 40px 74px 24px rgba(0, 0, 0, 0.08);
+    }
 }
 
 /* Phones */

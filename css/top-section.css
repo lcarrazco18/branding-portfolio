@@ -1,5 +1,3 @@
-#top {}
-
 #top .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -94,5 +92,4 @@
     #top .img .background-img {
         height: 100vh;
     }
-
 }
